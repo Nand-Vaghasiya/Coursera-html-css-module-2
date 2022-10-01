@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(253, 11, 11);
+}
+section {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+div {
+    position: relative;
+    background-color: grey;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.s1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+    
+}
+.s2 {
+    float: right;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: lightgreen;
+    
+}
+.s1 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: lightcoral;
+    
+}
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+clear: right;
+}
+
+.row {
+    width: 90%;
+}
+
+/*Desktop PC view*/
+@media (min-width: 992px){
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+
+    }
+}
+/*mobile view*/
+@media (max-width: 767px){
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
